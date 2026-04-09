@@ -605,8 +605,7 @@ require('lazy').setup({
       ---@type table<string, vim.lsp.Config>
       local servers = {
         -- clangd = {},
-        -- gopls = {},
-        -- pyright = {},
+        gopls = {},
         pyright = {},
         -- rust_analyzer = {},
         --
